@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "self-defined-method-1", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arithmetic-method", "..\arithmetic-method\arithmetic-method.csproj", "{2D898EEC-01D8-4809-9A3F-0939214EF375}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercise-1", "..\exercise-1\exercise-1.csproj", "{BE3204C8-A0EB-46C8-A24B-B7AF3C66E0C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{2D898EEC-01D8-4809-9A3F-0939214EF375}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D898EEC-01D8-4809-9A3F-0939214EF375}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D898EEC-01D8-4809-9A3F-0939214EF375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE3204C8-A0EB-46C8-A24B-B7AF3C66E0C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE3204C8-A0EB-46C8-A24B-B7AF3C66E0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE3204C8-A0EB-46C8-A24B-B7AF3C66E0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE3204C8-A0EB-46C8-A24B-B7AF3C66E0C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
