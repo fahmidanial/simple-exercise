@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "boolean", "..\boolean\boole
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "math-method", "..\math-method\math-method.csproj", "{34592B81-F213-42CE-AFBD-712B09CF8A81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "self-defined-method", "..\self-defined-method\self-defined-method.csproj", "{D00BEE6F-A9ED-4AD7-B260-899B3AD2F0C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{34592B81-F213-42CE-AFBD-712B09CF8A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34592B81-F213-42CE-AFBD-712B09CF8A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34592B81-F213-42CE-AFBD-712B09CF8A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D00BEE6F-A9ED-4AD7-B260-899B3AD2F0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00BEE6F-A9ED-4AD7-B260-899B3AD2F0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00BEE6F-A9ED-4AD7-B260-899B3AD2F0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00BEE6F-A9ED-4AD7-B260-899B3AD2F0C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
