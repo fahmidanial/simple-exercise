@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arithmetic-operator-1", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arithmetic-operator", "..\arithmetic-operator\arithmetic-operator.csproj", "{1FCAD0FF-7EC9-40E7-832D-4D9EF3BD7A58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "increment", "..\increment\increment.csproj", "{781CD8E2-A182-47D4-88C6-56B26662A042}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "increment-1", "..\increment-1\increment-1.csproj", "{3F24C629-38F1-4987-8C7B-F1C7D82F2E40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{1FCAD0FF-7EC9-40E7-832D-4D9EF3BD7A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FCAD0FF-7EC9-40E7-832D-4D9EF3BD7A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FCAD0FF-7EC9-40E7-832D-4D9EF3BD7A58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{781CD8E2-A182-47D4-88C6-56B26662A042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{781CD8E2-A182-47D4-88C6-56B26662A042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{781CD8E2-A182-47D4-88C6-56B26662A042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{781CD8E2-A182-47D4-88C6-56B26662A042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F24C629-38F1-4987-8C7B-F1C7D82F2E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F24C629-38F1-4987-8C7B-F1C7D82F2E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F24C629-38F1-4987-8C7B-F1C7D82F2E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F24C629-38F1-4987-8C7B-F1C7D82F2E40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
