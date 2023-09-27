@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "math-method", "..\math-meth
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "self-defined-method", "..\self-defined-method\self-defined-method.csproj", "{D00BEE6F-A9ED-4AD7-B260-899B3AD2F0C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "self-defined-method-1", "..\self-defined-method-1\self-defined-method-1.csproj", "{08EF16C8-A936-4B06-9C99-8BACB786E149}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{D00BEE6F-A9ED-4AD7-B260-899B3AD2F0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D00BEE6F-A9ED-4AD7-B260-899B3AD2F0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D00BEE6F-A9ED-4AD7-B260-899B3AD2F0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08EF16C8-A936-4B06-9C99-8BACB786E149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EF16C8-A936-4B06-9C99-8BACB786E149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EF16C8-A936-4B06-9C99-8BACB786E149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EF16C8-A936-4B06-9C99-8BACB786E149}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
