@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple-exercise-1", "..\sim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "total-number", "..\total-number\total-number.csproj", "{C8CA2E6F-5F33-42AE-BDFC-7A96D607B1BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arithmetic-operator", "..\ConsoleApp2\arithmetic-operator.csproj", "{C912F167-C8F2-4CBD-8CA6-BB50637B4912}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arithmetic-operator-1", "..\arithmetic-operator-1\arithmetic-operator-1.csproj", "{EC86096C-80B9-4688-8B9A-C919837E197D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{C8CA2E6F-5F33-42AE-BDFC-7A96D607B1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8CA2E6F-5F33-42AE-BDFC-7A96D607B1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8CA2E6F-5F33-42AE-BDFC-7A96D607B1BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C912F167-C8F2-4CBD-8CA6-BB50637B4912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C912F167-C8F2-4CBD-8CA6-BB50637B4912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C912F167-C8F2-4CBD-8CA6-BB50637B4912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C912F167-C8F2-4CBD-8CA6-BB50637B4912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC86096C-80B9-4688-8B9A-C919837E197D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC86096C-80B9-4688-8B9A-C919837E197D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC86096C-80B9-4688-8B9A-C919837E197D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC86096C-80B9-4688-8B9A-C919837E197D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
