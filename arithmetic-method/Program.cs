@@ -18,6 +18,14 @@ class Program
 
         Console.WriteLine("GetPi second time : {0}", GetPi());
 
+        int ans = Subtract(10, 5);
+        Console.WriteLine($"The outcome of subtraction: {0}", ans);
+    }
+
+    static int Subtract(int n1, int n2)
+    {
+        int answer = n1 - n2;
+        return answer;
     }
     static double GetPi()
     {
