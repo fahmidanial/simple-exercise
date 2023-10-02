@@ -13,6 +13,8 @@ class Program
         Add(n3: 500, n1: 600);
         Add(n2: 999); //n1 will use the default 10 and n3 default 30 
 
+        Add(50, n3: 100); //replace n1 with 50
+
 
         Console.ReadLine();
 
