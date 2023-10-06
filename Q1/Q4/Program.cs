@@ -21,13 +21,17 @@ class Program
 
         // Read data from Employee.csv and populate empList
         using (StreamReader reader = new StreamReader(path))
-
-            
-
         {
             string line;
+            bool firstLine = true; // Add this flag to skip the first line
             while ((line = reader.ReadLine()) != null)
             {
+                if (firstLine)
+                {
+                    firstLine = false; // Skip the first line (header)
+                    continue;
+                }
+
                 string[] parts = line.Split(',');
                 if (parts.Length == 4)
                 {
@@ -35,7 +39,8 @@ class Program
                     {
                         EmployeeName = parts[0],
                         ID = parts[1],
-                        Salary = double.Parse(parts[2]),
+                        // Safely parse Salary as a double
+                        Salary = double.TryParse(parts[2], out double salary) ? salary : 0.0,
                         DateJoined = parts[3]
                     };
                     empList.Add(employee);
@@ -48,7 +53,7 @@ class Program
 
         // Filter employees who joined before 2003
         var joinedBefore2003 = empList
-            .Where(e => int.Parse(e.DateJoined.Substring(e.DateJoined.LastIndexOf("/") + 1)) < 2003)
+            .Where(e => int.TryParse(e.DateJoined.Substring(e.DateJoined.LastIndexOf("/") + 1), out int year) && year < 2003)
             .ToList();
 
         // Filter employees with a salary above 5000.00
